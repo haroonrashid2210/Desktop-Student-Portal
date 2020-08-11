@@ -28,7 +28,7 @@ public class Runner {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLayout(null);
 
-        ImageIcon img = new ImageIcon((new ImageIcon("C:\\Users\\HarRy\\Idea Projects\\WorkSpace\\UDP\\images\\background.jpg")).getImage().getScaledInstance(1000, 500, Image.SCALE_SMOOTH));
+        ImageIcon img = new ImageIcon((new ImageIcon("images/background.jpg")).getImage().getScaledInstance(1000, 500, Image.SCALE_SMOOTH));
 
         // Panel Layouts to null
 

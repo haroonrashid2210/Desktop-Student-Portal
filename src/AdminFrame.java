@@ -603,7 +603,7 @@ public class AdminFrame {
                     // Adding Students
                     filingText.addText(username, "username.txt");
                     FilingStudent filing = new FilingStudent();
-                    Student student = new Student(name, phone, cnic, regno, username, "00000", Integer.parseInt(semester));
+                    Student student = new Student(name, phone, cnic, regno, username, username, Integer.parseInt(semester));
                     filing.add(student, "Student.ser");
                     JOptionPane.showMessageDialog(null, "Successful ✓");
 
@@ -671,7 +671,7 @@ public class AdminFrame {
                     if (check.subjectIsValid(subject)) {
                         filingText.addText(username, "username.txt");
                         FilingProfessor filing = new FilingProfessor();
-                        filing.add(new Professor(name, phone, cnic, username, "00000", subject, id), "Professor.ser");
+                        filing.add(new Professor(name, phone, cnic, username, username, subject, id), "Professor.ser");
                         JOptionPane.showMessageDialog(null, "Successful ✓");
 
                         home_faculty_model.addRow(new Object[]{name, id, subject});

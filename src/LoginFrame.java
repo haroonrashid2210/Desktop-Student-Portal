@@ -35,7 +35,7 @@ public class LoginFrame {
     private static JPanel about_panel = new JPanel();
     private static JLabel about_label = new JLabel("ABOUT");
     private static JPanel about_extend_panel = new JPanel();
-    private static JLabel about_extend_label = new JLabel("<html>Developed by<br><br>Haroon Rashid</html>");
+    private static JLabel about_extend_label = new JLabel("<html>Developed by<br><br>Haroon Rashid<br>GitHub: haroonrashid2210</html>");
 
     private static void createAdminPanel() {
         // panel
@@ -44,7 +44,7 @@ public class LoginFrame {
         admin_panel.setBackground(new Color(0, 0, 0, 125));
 
         // heading
-        admin_heading.setFont(new Font("Calibri", Font.BOLD, 20));
+        admin_heading.setFont(new Font("Arial", Font.BOLD, 18));
         admin_heading.setForeground(Color.WHITE);
         admin_heading.setBounds(95, 30, 70, 25);
 
@@ -74,9 +74,9 @@ public class LoginFrame {
         student_panel.setBackground(new Color(0, 0, 0, 125));
 
         // heading
-        student_heading.setFont(new Font("Calibri", Font.BOLD, 20));
+        student_heading.setFont(new Font("Arial", Font.BOLD, 18));
         student_heading.setForeground(Color.WHITE);
-        student_heading.setBounds(85, 30, 80, 25);
+        student_heading.setBounds(85, 30, 100, 25);
 
         // email field
         student_username_field.setBounds(24, 110, 200, 25);
@@ -104,9 +104,9 @@ public class LoginFrame {
         faculty_panel.setBackground(new Color(0, 0, 0, 125));
 
         // heading
-        faculty_heading.setFont(new Font("Calibri", Font.BOLD, 20));
+        faculty_heading.setFont(new Font("Arial", Font.BOLD, 18));
         faculty_heading.setForeground(Color.WHITE);
-        faculty_heading.setBounds(87, 30, 80, 25);
+        faculty_heading.setBounds(87, 30, 100, 25);
 
         // email field
         faculty_username_field.setBounds(24, 110, 200, 25);
@@ -151,7 +151,7 @@ public class LoginFrame {
         // label
         about_extend_label.setBounds(30, 50, 200, 200);
         about_extend_label.setForeground(Color.white);
-        about_extend_label.setFont(new Font("Calibri", Font.PLAIN, 20));
+        about_extend_label.setFont(new Font("Arial", Font.PLAIN, 20));
 
         // adding components
         about_extend_panel.setVisible(false);
@@ -160,8 +160,8 @@ public class LoginFrame {
     }
 
     private static void createHeading() {
-        heading.setBounds(334, 35, 350, 50);
-        heading.setFont(new Font("Calibri", Font.BOLD, 30));
+        heading.setBounds(275, 35, 500, 50);
+        heading.setFont(new Font("Arial", Font.BOLD, 30));
         heading.setForeground(Color.white);
         Runner.Login_Panel.add(heading);
     }
