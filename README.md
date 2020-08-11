@@ -1,4 +1,4 @@
-# Desktop Student Portal
+# Learning Management System
 ### About
 A LMS Learning Management System made in java using serialization. It is a very basic LMS which can perform a number of functionalities.
 
